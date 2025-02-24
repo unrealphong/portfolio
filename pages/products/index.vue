@@ -1,6 +1,8 @@
 <template>
-	<div>
-		<h1>Danh sách sản phẩm</h1>
+	<div class="flex flex-col items-center">
+		<h1 class="text-4xl text-red-500">
+			Danh sách sản phẩm
+		</h1>
 		<ul>
 			<li
 				v-for="product in products"
